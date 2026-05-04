@@ -19,8 +19,11 @@ This project contains manual and automated tests for a portfolio rebalancing cal
 
 ## How to Run
 
+
+```bash
 npm install
 npm test
+```
 
 ## Assumptions
 
