@@ -1,0 +1,290 @@
+{
+    "valid": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": 10,
+                "unitPrice": 150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 30,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "balanced": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "invalidPriceZero": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 0
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "invalidPriceNegative": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": -150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "invalidPercentage": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": -10,
+                "unitPrice": 150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 30,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 30,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 30,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "invalidTargetSum": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 10,
+                "currentPercent": 10,
+                "unitPrice": 150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            }
+        ]
+    },
+    "invalidCurrentSum": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "IBM",
+                "targetPercent": 20,
+                "currentPercent": 10,
+                "unitPrice": 150
+            },
+            {
+                "symbol": "MSFT",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 90
+            },
+            {
+                "symbol": "ORCL",
+                "targetPercent": 20,
+                "currentPercent": 30,
+                "unitPrice": 220
+            },
+            {
+                "symbol": "AAPL",
+                "targetPercent": 20,
+                "currentPercent": 20,
+                "unitPrice": 450
+            },
+            {
+                "symbol": "HD",
+                "targetPercent": 20,
+                "currentPercent": 10,
+                "unitPrice": 70
+            }
+        ]
+    },
+    "empty": {
+        "totalAsset": 100000,
+        "securities": []
+    },
+    "decimal": {
+        "totalAsset": 100000,
+        "securities": [
+            {
+                "symbol": "AAA",
+                "targetPercent": 33.33,
+                "currentPercent": 30,
+                "unitPrice": 100
+            },
+            {
+                "symbol": "BBB",
+                "targetPercent": 33.33,
+                "currentPercent": 33.33,
+                "unitPrice": 100
+            },
+            {
+                "symbol": "CCC",
+                "targetPercent": 33.34,
+                "currentPercent": 36.67,
+                "unitPrice": 100
+            }
+        ]
+    },
+    "small": {
+        "totalAsset": 100,
+        "securities": [
+            {
+                "symbol": "AAA",
+                "targetPercent": 50,
+                "currentPercent": 40,
+                "unitPrice": 10
+            },
+            {
+                "symbol": "BBB",
+                "targetPercent": 50,
+                "currentPercent": 60,
+                "unitPrice": 10
+            }
+        ]
+    },
+    "large": {
+        "totalAsset": 10000000,
+        "securities": [
+            {
+                "symbol": "AAA",
+                "targetPercent": 50,
+                "currentPercent": 40,
+                "unitPrice": 100
+            },
+            {
+                "symbol": "BBB",
+                "targetPercent": 50,
+                "currentPercent": 60,
+                "unitPrice": 100
+            }
+        ]
+    }
+}
